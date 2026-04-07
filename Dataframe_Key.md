@@ -1,6 +1,4 @@
-## OIC-222 YAP pERK Ki67 TMA Analysis
-
-### Key for QuPath TMA Analysis
+# Key for QuPath TMA Analysis
 
 To organize the cell detections, counts, and measurements by TMA core, QuPath's TMA dearray tool is used to identify the TMA grid and assign core identities. The columns are assign a number and the rows are assigned a letter, thereby assigning each TMA core a unique number-letter ID. See example below:
 
