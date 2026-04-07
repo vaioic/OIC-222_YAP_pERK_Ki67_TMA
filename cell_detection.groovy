@@ -27,7 +27,7 @@ def stardist = StarDist2D
     .channels(0)            // Extract channel called 'DAPI'
     .normalizePercentiles(1, 99) // Percentile normalization
     .threshold(0.5)              // Probability (detection) threshold
-    .pixelSize(0.0863*2)              // Resolution for detection; used 2x downsampling for smoother boundaries
+    .pixelSize(0.0863*2)              // Update to image's pixel size; set to 2x downsampling for smoother boundaries
     //.cellExpansion()            // Expand nuclei to approximate cell boundaries
     .measureShape()              // Add shape measurements to remove small objects as shown below
     //.measureIntensity()          // Add cell measurements (in all compartments)
